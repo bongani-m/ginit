@@ -1,0 +1,27 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "description": "Ginit is a commandline utility to help intialize git ",
+  "main": "index.js",
+  "author": "Bongani Mbigi <bongani@utexas.edu>",
+  "license": "MIT",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "bin" : {
+    "ginit": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "^0.0.1",
+    "clui": "^0.3.1",
+    "figlet": "^1.2.0",
+    "github": "^8.1.1",
+    "inquirer": "^3.0.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "simple-git": "^1.65.0",
+    "touch": "^1.0.0"
+  }
+}
